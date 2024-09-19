@@ -30,7 +30,7 @@ function MyForm() {
     }
     alert("Your Form is submitted");
 
-    Axios.post("http://localhost:3001/form", payload)
+    Axios.post("https://feedbackform-server.onrender.com/form", payload)
       .then((res) => {
         console.log(res.config.data); // Log the server response
         console.log("done");
