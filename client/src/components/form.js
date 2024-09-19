@@ -54,7 +54,7 @@ function MyForm() {
 
   // Function to fetch the form data from the server
   const fetchData = () => {
-    Axios.get("http://localhost:3001/form-data")
+    Axios.get("https://feedbackform-server.onrender.com/form-data")
       .then((res) => {
         setFormData(res.data); // Update formData with the fetched data
         setIsDataVisible(true); // Show the data once fetched
