@@ -1,0 +1,51 @@
+.frm {
+  border: 1px solid black;
+  height: 64vh;
+  width: 30vw;
+  margin-left: 40%;
+  display: grid;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+input,
+select {
+  background: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+textarea {
+  background: transparent;
+  height: 5vh;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+button {
+  width: 50%;
+  padding: 5px;
+  border-radius: 13px;
+  border-color: aliceblue;
+  background-color: #ebc634;
+  margin-left: 25%;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.getData {
+  margin-left: 550pt;
+}
+.btn {
+  width: 300px;
+  margin-left: 545pt;
+  margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+body {
+  background-image: url("./components/image/feedback.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+}
+.head {
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #ebc634;
+  font-family: "Lora", serif;
+  border-radius: 10px;
+  width: fit-content; /* Adjust the width based on the content */
+  text-align: center;
+}
